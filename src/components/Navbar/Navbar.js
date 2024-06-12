@@ -1,8 +1,9 @@
 import React from 'react';
+import classes from './Navbar.module.css'
 
-const Header = () => {
+const Navbar = () => {
 	return (
-		<nav className="nav">
+		<nav className={classes.nav}>
 			<ul>
 				<li><a href="#">Profile</a></li>
 				<li><a href="#">Messages</a></li>
@@ -13,4 +14,4 @@ const Header = () => {
 	);
 };
 
-export default Header;
+export default Navbar;

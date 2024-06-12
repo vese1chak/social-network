@@ -8,36 +8,9 @@
     grid-template-columns: 1fr 5fr;
     grid-gap: 10px;
 }
-
-.header {
-    grid-area: h;
-    background-color: aquamarine;
-}
-.header img {
-    width: 60px;
-    height: 60px;
-}
-
-.nav {
-    grid-area: n;
-    background-color: #ecdee1;
-    padding: 10px;
-}
-.nav ul {
-    padding: 0;
-}
-.nav ul li {
-    list-style-type: none;
-}
-.nav ul li a {
-    color: black;
-    text-decoration: none;
-}
-.nav ul li a:hover {
-    text-decoration: underline;
-}
-
-.content {
+.app-wrapper-content {
     grid-area: c;
     background-color: darkviolet;
 }
+
+
