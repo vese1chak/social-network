@@ -6,13 +6,16 @@
 .nav ul {
     padding: 0;
 }
-.nav ul li {
+.item {
     list-style-type: none;
 }
-.nav ul li a {
+.item a {
     color: black;
     text-decoration: none;
 }
-.nav ul li a:hover {
+.item a:hover {
     text-decoration: underline;
+}
+.item a.active {
+    color: mediumpurple;
 }
